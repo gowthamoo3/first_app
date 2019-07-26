@@ -1,0 +1,16 @@
+
+<div class="center jumbotron">
+  <h1>Welcome to the My_Twitter_App</h1>
+
+  <h2>
+    This is the home page for this
+    application.
+  </h2>
+
+ <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+ <!-- link_to simlar to a tag once the rails has processed everything link_to is converted into a_tag -->
+ <!-- link_to is a helper-->
+</div>
+
+<%= link_to image_tag("Twitter-icon.png", alt: "Rails logo"),
+            'https://twitter.com/home' %>
